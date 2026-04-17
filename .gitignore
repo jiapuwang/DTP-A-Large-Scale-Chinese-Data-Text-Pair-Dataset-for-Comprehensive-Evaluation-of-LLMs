@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.log
+*.jsonl
+!test/*.jsonl
+Evaluation/base_data/
+Evaluation/sft_data/
+Evaluation/cleaned/
+Evaluation/transformed/
+*.xlsx
+*.pt
+*.bin
+*.safetensors
+wandb/
+*.egg-info/
