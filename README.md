@@ -4,12 +4,12 @@ CDTP is a benchmark for evaluating Chinese LLMs on structured knowledge understa
 
 | Task | Description | Metrics |
 |------|-------------|---------|
-| **KG** | Knowledge graph completion | MRR, Hits@K, Accuracy |
-| **QA** | Multi-choice question answering | MRR, Hits@K, Accuracy |
-| **TextGen** | Structured-to-text generation | BLEU, ROUGE, METEOR |
+| **KGC** | Knowledge graph completion | MRR, Hits@K, F1 Score |
+| **QA** | Multi-choice question answering | MRR, Accuracy, F1 Score |
+| **T2T Generation** | Structured-to-text generation | BLEU, ROUGE, METEOR |
 
 **Domains:** History & Politics · Humanities & Society · Nature & Environment · Technology & Economics
-**Models:** Yi-9B · Qwen1.5-7B · GLM-4-9B · DeepSeek-7B · Llama-3-8B · Baichuan2-7B · InternLM2-7B · Phi-2
+**Models:** Yi-9B · Qwen1.5-7B · GLM-4-9B · DeepSeek-7B · Llama-3-8B · Baichuan2-7B · InternLM2-7B · Phi-2 · GPT-4 · Claude-sonnet-4.5 · Gemini-2.5-flash
 
 ---
 
