@@ -1,11 +1,3 @@
-# CDTP
-
-> **Bridging Structured Knowledge and Text: The CDTP Dataset for Evaluating Chinese Large Language Models**
->
-> TKDE 2026 / ICML 2026 Submission
-
----
-
 ## Overview
 
 CDTP is a benchmark for evaluating Chinese LLMs on structured knowledge understanding and text generation. It covers three tasks across four domains:
@@ -163,22 +155,3 @@ cp /path/to/Qwen3-32B/tokenizer* /path/to/epoch-2-2655-hf/
 |---------|------|
 | Primary | 8 × A800 (80 GB) |
 | Minimum | Single GPU |
-
----
-
-## Citation
-
-```bibtex
-@article{cdtp2026,
-  title  = {Bridging Structured Knowledge and Text: The CDTP Dataset
-            for Evaluating Chinese Large Language Models},
-  author = {Jiapu Wang et al.},
-  journal = {TKDE},
-  year    = {2026},
-  note    = {Under review — ICML 2026 submission}
-}
-```
-
----
-
-*Last updated: 2025*
